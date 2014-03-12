@@ -8,3 +8,5 @@ This is the repository for putting Demo[Hello World Program] for various languag
 This folder contains the Hello World for Scala Language
 
 This is root project directory for Scala Hello World Program.
+
+Go to project [Scala Demo] (https://github.com/mehikmat/DemoRepo/tree/master/scala-demo)
