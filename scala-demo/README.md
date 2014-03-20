@@ -15,7 +15,8 @@ Environment Setup
 
 How to run?
 ============
-	$ cd $PROJECT_HOME
+	$ git clone https://github.com/mehikmat/DemoRepo.git
+	$ cd DemoRepo/scala-demo
 	$ ./sbt run 
 
 
