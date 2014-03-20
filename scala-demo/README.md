@@ -1,5 +1,5 @@
-================Scala Demo [Scala Hello World]=============
-===========================================================
+===Scala Demo [Scala Hello World]===
+====================================
 Environment Setup
 =================
 	[1] JAVA SETUP
@@ -15,7 +15,7 @@ Environment Setup
 
 How to run?
 ============
-$ cd $PROJECT_HOME
-$ ./sbt run 
+	$ cd $PROJECT_HOME
+	$ ./sbt run 
 
 
