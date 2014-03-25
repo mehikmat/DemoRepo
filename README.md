@@ -19,3 +19,12 @@ This folder contains the Hello World for scala play framework
 This is root project directory for Scala Play framework Hello World Program.
 
 Go to project [Play Demo] (https://github.com/mehikmat/DemoRepo/tree/master/play-demo)
+
+
+[3] log4j-demo
+====================
+This folder contains the Hello World for log4j framework 
+
+This is root project directory for log4j framework Hello World Program.
+
+Go to project [Log4J Demo] (https://github.com/mehikmat/DemoRepo/tree/master/log4j-demo)
