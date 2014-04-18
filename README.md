@@ -28,3 +28,13 @@ This folder contains the Hello World for log4j framework
 This is root project directory for log4j framework Hello World Program.
 
 Go to project [Log4J Demo] (https://github.com/mehikmat/DemoRepo/tree/master/log4j-demo)
+
+
+[3] mail-demo
+====================
+This folder contains the java web app for sending email 
+
+This is root project directory for mail-demo Program.
+
+Go to project [Mail Demo] (https://github.com/mehikmat/DemoRepo/tree/master/mail-demo)
+
