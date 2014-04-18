@@ -1,0 +1,93 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hacker</groupId>
+  <artifactId>mail-demo</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>mail-demo Maven Webapp</name>
+
+    <!--source code encoding format-->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!--repository for jetty plugin-->
+    <repositories>
+        <repository>
+            <id>org.eclipse.jetty</id>
+            <url>http://mvnrepository.com/artifact/org.eclipse.jetty</url>
+        </repository>
+        <repository>
+            <id>java.net2</id>
+            <name>Repository hosting the jee6 artifacts</name>
+            <url>http://download.java.net/maven/2</url>
+        </repository>
+    </repositories>
+
+  <dependencies>
+      <!--junit for unit testing-->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+          <groupId>javax</groupId>
+          <artifactId>javaee-web-api</artifactId>
+          <version>6.0</version>
+          <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>javax.mail</groupId>
+      <artifactId>mail</artifactId>
+      <version>1.4.3</version>
+     </dependency>
+
+  </dependencies>
+
+  <build>
+    <finalName>mail-demo</finalName>
+      <plugins>
+
+          <!--maven compiler plugin to set java version-->
+          <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-compiler-plugin</artifactId>
+              <version>2.3.2</version>
+              <configuration>
+                  <encoding>${project.build.sourceEncoding}</encoding>
+                  <source>1.6</source>
+                  <target>1.6</target>
+                  <optimize>true</optimize>
+              </configuration>
+          </plugin>
+
+          <!--maven jetty plugin to run web app in jetty server-->
+          <plugin>
+              <groupId>org.eclipse.jetty</groupId>
+              <artifactId>jetty-maven-plugin</artifactId>
+              <version>9.1.3.v20140225</version>
+          </plugin>
+
+          <!--maven war plugin to package project as war file-->
+          <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-war-plugin</artifactId>
+              <version>2.4</version>
+              <configuration>
+                  <webResources>
+                      <!-- <resource>
+                            external resouces this is relative to the pom.xml directory
+                            <directory>dir</directory>
+                           </resource>
+                      -->
+                  </webResources>
+              </configuration>
+          </plugin>
+      </plugins>
+  </build>
+</project>
