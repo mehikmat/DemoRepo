@@ -30,11 +30,21 @@ This is root project directory for log4j framework Hello World Program.
 Go to project [Log4J Demo] (https://github.com/mehikmat/DemoRepo/tree/master/log4j-demo)
 
 
-[3] mail-demo
+[4] mail-demo
 ====================
 This folder contains the java web app for sending email 
 
 This is root project directory for mail-demo Program.
 
 Go to project [Mail Demo] (https://github.com/mehikmat/DemoRepo/tree/master/mail-demo)
+
+[5] hacker-mail
+====================
+This folder contains the hacky java desktop app for sending email 
+
+This is root project directory for hacker-mail Program.
+
+Go to project [Hacker Mail] (https://github.com/mehikmat/DemoRepo/tree/master/hacker-mail)
+
+
 
